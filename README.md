@@ -66,7 +66,10 @@ Make sure you have MySQL installed on your system. You can download it from MySQ
 
 2. Run the Project
    ->oython database_setup.py
+   
    ->python student_management_system.py
+
+   
    
 📝 Next Steps
 
