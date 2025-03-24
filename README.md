@@ -65,7 +65,8 @@ Database Setup
 Make sure you have MySQL installed on your system. You can download it from MySQL Official Website.
 
 2. Run the Project
-   ->oython database_setup.py
+   
+   ->python database_setup.py
    
    ->python student_management_system.py
 
