@@ -14,53 +14,63 @@ Used mysql.connector for executing queries.
 
 ✅ Teacher Functionalities
 
-Login system for teachers with bcrypt-based password hashing.
+-Login system for teachers with bcrypt-based password hashing.
 
-Teacher Menu with options to:
+-Teacher Menu with options to:
 
-Add new students
+->Add new students
 
-View all students
+->View all students
 
-Add courses
+->Add courses
 
-Enroll students in courses
+->Enroll students in courses
 
-Assign grades (In Progress - Method assign_grade just added)
+->Assign grades (In Progress - Method assign_grade just added)
 
 ✅ Student Functionalities
 
 Student Menu with options to:
 
-View personal details (view_student_details method implemented)
+->View personal details (view_student_details method implemented)
 
-View enrolled courses (view_student_courses method required)
+->View enrolled courses (view_student_courses method required)
 
-Calculate SGPA (calculate_sgpa method implemented)
+->Calculate SGPA (calculate_sgpa method implemented)
 
 🔧 Features Still Needed
 
-Implement assign_grade() for assigning grades to students.
+->Implement assign_grade() for assigning grades to students.
 
-Implement view_student_courses() to display courses a student is enrolled in.
+->Implement view_student_courses() to display courses a student is enrolled in.
 
-Improve error handling and validations.
+->Improve error handling and validations.
 
-Create a student login system (currently, students enter their IDs manually).
+->Create a student login system (currently, students enter their IDs manually).
 
 🛠 Technologies Used
 
-Python (for backend logic)
+->Python (for backend logic)
 
-MySQL (database management)
+->MySQL (database management)
 
-bcrypt (password hashing)
+->bcrypt (password hashing)
 
-getpass (for secure password input)
+->getpass (for secure password input)
 
+Database Setup
+
+1. Install MySQL
+
+Make sure you have MySQL installed on your system. You can download it from MySQL Official Website.
+
+2. Run the Project
+   ->oython database_setup.py
+   ->python student_management_system.py
+   
 📝 Next Steps
 
-Complete assign_grade() and view_student_courses() methods.
+->Complete assign_grade() and view_student_courses() methods.
 
 Implement a student authentication system.
 
